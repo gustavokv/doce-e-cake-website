@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+}
+
+nav{
+    display: flex;
+    background: white;
+    align-items: center;
+    font-family: "Bebas Neue", serif;
+    position: fixed;
+    width: 100%;
+    border: red solid 1px;
+}
+
+.logo{
+    border: red solid 1px;
+    display: flex;
+}
+
+.logo h1{
+    font-family: "Pacifico", serif;
+    font-size: 30px;
+    color: #D64933;
+}
+
+.menu{
+
+}
+
+.menu a{
+    text-decoration: none;
+    color:#D64933;
+    font-size: 30px;
+}
+
+.menu a:hover{
+    color: #F5B700;
+    border-top: 2px solid #D64933;
+}
+
+#fale-conosco{
+    background: #D64933;
+    padding: 10px 15px;
+    color:white;
+    border-radius: 25px;
+}
+
+#fale-conosco:hover{
+    border: none;
+    background-color: #F5B700;
+}
+
+header{
+    padding-top: 150px;
+    font-family: "Bebas Neue", serif;
+    color: #D64933;
+    display: flex;
+    flex-flow: row wrap;
+    background: white;
+    justify-content: center;
+    align-items: center;
+}
+
+.headline{
+    margin-left: 10%;
+    flex:40%;
+}
+
+.headline h2{
+    font-size: 20px;
+    padding: 0;
+    margin:0;
+}
+
+.headline p {
+    font-size: 20px;
+    color: gray;
+    text-align: left;
+    margin:0;
+    margin-bottom: 35px;
+}
+
+.catalog-btn{
+    font-size: 25px;
+    display: inline-block;
+    background: #F5B700;
+    padding: 20px;
+    color:white;
+    text-transform: uppercase;
+    border-radius: 25px;
+    text-decoration: none;
+}
+
+.catalog-btn:hover{
+    background: #D64933;
+}
+
+.img-headline{
+    margin-right: 10%;
+    flex:40%;
+    text-align: center;
+}
+
+section{
+    font-family: "Bebas Neue", serif;
+    display: inline-block;
+    margin-top: 80px;
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: center;
+    padding: 5%;
+}
+
+section h2{
+    width: 100%;
+    font-size: 50px;
+    margin:0;
+    font-family: "Pacifico", serif;
+    color:#D64933;
+}
+
+.servicos{
+    display: inline-block;
+    margin-top: 5%;
+}
+
+.card{
+    display: inline-block;
+    width: 30%;
+    padding: 20px;
+    margin: 1%;
+    border: 1px solid #F5B700;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.card-white{
+    display: none;
+}
+
+.card:hover{
+    background: #F5B700;
+    color: white;
+    padding: 40px;   
+}
+
+.card:hover .card-yellow{
+    display:none;
+}
+
+.card:hover .card-white{
+    display: block;
+}
+
+footer{
+    font-family: "Bebas Neue", serif;
+    margin-top: 100px;
+    height: 200px;
+    background-image: linear-gradient(180deg, #D64933, #992F1E, #44150D);
+    text-align: center;
+    border-top: 5px solid #F5B700;
+}
+
+footer h1, p{
+    color: white;
+}
+
+.h1-rodape{
+    font-family: "Pacifico", serif;
+    font-size: 35px;
+    color: white;
+}
+
+.whatsapp{
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    height: 60px;
+}
+
